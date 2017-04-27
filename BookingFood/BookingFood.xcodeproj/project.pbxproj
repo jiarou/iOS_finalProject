@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48B54E891EB19EAB001C06E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B54E881EB19EAB001C06E5 /* AppDelegate.swift */; };
+		48B54E8B1EB19EAB001C06E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B54E8A1EB19EAB001C06E5 /* ViewController.swift */; };
+		48B54E8E1EB19EAB001C06E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B54E8C1EB19EAB001C06E5 /* Main.storyboard */; };
+		48B54E911EB19EAB001C06E5 /* BookingFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48B54E8F1EB19EAB001C06E5 /* BookingFood.xcdatamodeld */; };
+		48B54E931EB19EAB001C06E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B54E921EB19EAB001C06E5 /* Assets.xcassets */; };
+		48B54E961EB19EAB001C06E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B54E941EB19EAB001C06E5 /* LaunchScreen.storyboard */; };
+		48B54EA11EB19EAB001C06E5 /* BookingFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B54EA01EB19EAB001C06E5 /* BookingFoodTests.swift */; };
+		48B54EAC1EB19EAB001C06E5 /* BookingFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B54EAB1EB19EAB001C06E5 /* BookingFoodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48B54E9D1EB19EAB001C06E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48B54E7D1EB19EAB001C06E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48B54E841EB19EAB001C06E5;
+			remoteInfo = BookingFood;
+		};
+		48B54EA81EB19EAB001C06E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48B54E7D1EB19EAB001C06E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48B54E841EB19EAB001C06E5;
+			remoteInfo = BookingFood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48B54E851EB19EAB001C06E5 /* BookingFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookingFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B54E881EB19EAB001C06E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48B54E8A1EB19EAB001C06E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48B54E8D1EB19EAB001C06E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48B54E901EB19EAB001C06E5 /* BookingFood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookingFood.xcdatamodel; sourceTree = "<group>"; };
+		48B54E921EB19EAB001C06E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48B54E951EB19EAB001C06E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48B54E971EB19EAB001C06E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48B54E9C1EB19EAB001C06E5 /* BookingFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookingFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B54EA01EB19EAB001C06E5 /* BookingFoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingFoodTests.swift; sourceTree = "<group>"; };
+		48B54EA21EB19EAB001C06E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48B54EA71EB19EAB001C06E5 /* BookingFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookingFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B54EAB1EB19EAB001C06E5 /* BookingFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingFoodUITests.swift; sourceTree = "<group>"; };
+		48B54EAD1EB19EAB001C06E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48B54E821EB19EAB001C06E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B54E991EB19EAB001C06E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B54EA41EB19EAB001C06E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48B54E7C1EB19EAB001C06E5 = {
+			isa = PBXGroup;
+			children = (
+				48B54E871EB19EAB001C06E5 /* BookingFood */,
+				48B54E9F1EB19EAB001C06E5 /* BookingFoodTests */,
+				48B54EAA1EB19EAB001C06E5 /* BookingFoodUITests */,
+				48B54E861EB19EAB001C06E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48B54E861EB19EAB001C06E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48B54E851EB19EAB001C06E5 /* BookingFood.app */,
+				48B54E9C1EB19EAB001C06E5 /* BookingFoodTests.xctest */,
+				48B54EA71EB19EAB001C06E5 /* BookingFoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48B54E871EB19EAB001C06E5 /* BookingFood */ = {
+			isa = PBXGroup;
+			children = (
+				48B54E881EB19EAB001C06E5 /* AppDelegate.swift */,
+				48B54E8A1EB19EAB001C06E5 /* ViewController.swift */,
+				48B54E8C1EB19EAB001C06E5 /* Main.storyboard */,
+				48B54E921EB19EAB001C06E5 /* Assets.xcassets */,
+				48B54E941EB19EAB001C06E5 /* LaunchScreen.storyboard */,
+				48B54E971EB19EAB001C06E5 /* Info.plist */,
+				48B54E8F1EB19EAB001C06E5 /* BookingFood.xcdatamodeld */,
+			);
+			path = BookingFood;
+			sourceTree = "<group>";
+		};
+		48B54E9F1EB19EAB001C06E5 /* BookingFoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				48B54EA01EB19EAB001C06E5 /* BookingFoodTests.swift */,
+				48B54EA21EB19EAB001C06E5 /* Info.plist */,
+			);
+			path = BookingFoodTests;
+			sourceTree = "<group>";
+		};
+		48B54EAA1EB19EAB001C06E5 /* BookingFoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48B54EAB1EB19EAB001C06E5 /* BookingFoodUITests.swift */,
+				48B54EAD1EB19EAB001C06E5 /* Info.plist */,
+			);
+			path = BookingFoodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48B54E841EB19EAB001C06E5 /* BookingFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B54EB01EB19EAB001C06E5 /* Build configuration list for PBXNativeTarget "BookingFood" */;
+			buildPhases = (
+				48B54E811EB19EAB001C06E5 /* Sources */,
+				48B54E821EB19EAB001C06E5 /* Frameworks */,
+				48B54E831EB19EAB001C06E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookingFood;
+			productName = BookingFood;
+			productReference = 48B54E851EB19EAB001C06E5 /* BookingFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48B54E9B1EB19EAB001C06E5 /* BookingFoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B54EB31EB19EAB001C06E5 /* Build configuration list for PBXNativeTarget "BookingFoodTests" */;
+			buildPhases = (
+				48B54E981EB19EAB001C06E5 /* Sources */,
+				48B54E991EB19EAB001C06E5 /* Frameworks */,
+				48B54E9A1EB19EAB001C06E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48B54E9E1EB19EAB001C06E5 /* PBXTargetDependency */,
+			);
+			name = BookingFoodTests;
+			productName = BookingFoodTests;
+			productReference = 48B54E9C1EB19EAB001C06E5 /* BookingFoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48B54EA61EB19EAB001C06E5 /* BookingFoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B54EB61EB19EAB001C06E5 /* Build configuration list for PBXNativeTarget "BookingFoodUITests" */;
+			buildPhases = (
+				48B54EA31EB19EAB001C06E5 /* Sources */,
+				48B54EA41EB19EAB001C06E5 /* Frameworks */,
+				48B54EA51EB19EAB001C06E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48B54EA91EB19EAB001C06E5 /* PBXTargetDependency */,
+			);
+			name = BookingFoodUITests;
+			productName = BookingFoodUITests;
+			productReference = 48B54EA71EB19EAB001C06E5 /* BookingFoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48B54E7D1EB19EAB001C06E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = teamFour;
+				TargetAttributes = {
+					48B54E841EB19EAB001C06E5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					48B54E9B1EB19EAB001C06E5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48B54E841EB19EAB001C06E5;
+					};
+					48B54EA61EB19EAB001C06E5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48B54E841EB19EAB001C06E5;
+					};
+				};
+			};
+			buildConfigurationList = 48B54E801EB19EAB001C06E5 /* Build configuration list for PBXProject "BookingFood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48B54E7C1EB19EAB001C06E5;
+			productRefGroup = 48B54E861EB19EAB001C06E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48B54E841EB19EAB001C06E5 /* BookingFood */,
+				48B54E9B1EB19EAB001C06E5 /* BookingFoodTests */,
+				48B54EA61EB19EAB001C06E5 /* BookingFoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48B54E831EB19EAB001C06E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B54E961EB19EAB001C06E5 /* LaunchScreen.storyboard in Resources */,
+				48B54E931EB19EAB001C06E5 /* Assets.xcassets in Resources */,
+				48B54E8E1EB19EAB001C06E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B54E9A1EB19EAB001C06E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B54EA51EB19EAB001C06E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48B54E811EB19EAB001C06E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B54E911EB19EAB001C06E5 /* BookingFood.xcdatamodeld in Sources */,
+				48B54E8B1EB19EAB001C06E5 /* ViewController.swift in Sources */,
+				48B54E891EB19EAB001C06E5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B54E981EB19EAB001C06E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B54EA11EB19EAB001C06E5 /* BookingFoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B54EA31EB19EAB001C06E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B54EAC1EB19EAB001C06E5 /* BookingFoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48B54E9E1EB19EAB001C06E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48B54E841EB19EAB001C06E5 /* BookingFood */;
+			targetProxy = 48B54E9D1EB19EAB001C06E5 /* PBXContainerItemProxy */;
+		};
+		48B54EA91EB19EAB001C06E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48B54E841EB19EAB001C06E5 /* BookingFood */;
+			targetProxy = 48B54EA81EB19EAB001C06E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48B54E8C1EB19EAB001C06E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48B54E8D1EB19EAB001C06E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48B54E941EB19EAB001C06E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48B54E951EB19EAB001C06E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48B54EAE1EB19EAB001C06E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48B54EAF1EB19EAB001C06E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48B54EB11EB19EAB001C06E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BookingFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NCCU.BookingFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		48B54EB21EB19EAB001C06E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BookingFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NCCU.BookingFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		48B54EB41EB19EAB001C06E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BookingFoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NCCU.BookingFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookingFood.app/BookingFood";
+			};
+			name = Debug;
+		};
+		48B54EB51EB19EAB001C06E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BookingFoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NCCU.BookingFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookingFood.app/BookingFood";
+			};
+			name = Release;
+		};
+		48B54EB71EB19EAB001C06E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BookingFoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NCCU.BookingFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BookingFood;
+			};
+			name = Debug;
+		};
+		48B54EB81EB19EAB001C06E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BookingFoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NCCU.BookingFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BookingFood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48B54E801EB19EAB001C06E5 /* Build configuration list for PBXProject "BookingFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B54EAE1EB19EAB001C06E5 /* Debug */,
+				48B54EAF1EB19EAB001C06E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48B54EB01EB19EAB001C06E5 /* Build configuration list for PBXNativeTarget "BookingFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B54EB11EB19EAB001C06E5 /* Debug */,
+				48B54EB21EB19EAB001C06E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48B54EB31EB19EAB001C06E5 /* Build configuration list for PBXNativeTarget "BookingFoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B54EB41EB19EAB001C06E5 /* Debug */,
+				48B54EB51EB19EAB001C06E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48B54EB61EB19EAB001C06E5 /* Build configuration list for PBXNativeTarget "BookingFoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B54EB71EB19EAB001C06E5 /* Debug */,
+				48B54EB81EB19EAB001C06E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		48B54E8F1EB19EAB001C06E5 /* BookingFood.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48B54E901EB19EAB001C06E5 /* BookingFood.xcdatamodel */,
+			);
+			currentVersion = 48B54E901EB19EAB001C06E5 /* BookingFood.xcdatamodel */;
+			path = BookingFood.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 48B54E7D1EB19EAB001C06E5 /* Project object */;
+}
