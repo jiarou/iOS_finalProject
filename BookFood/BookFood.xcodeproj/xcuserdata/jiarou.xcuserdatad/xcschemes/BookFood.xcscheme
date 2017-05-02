@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "48B54E841EB19EAB001C06E5"
-               BuildableName = "BookingFood.app"
-               BlueprintName = "BookingFood"
-               ReferencedContainer = "container:BookingFood.xcodeproj">
+               BlueprintIdentifier = "48B490BF1EB8E7AE00C8C7DE"
+               BuildableName = "BookFood.app"
+               BlueprintName = "BookFood"
+               ReferencedContainer = "container:BookFood.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "48B54E9B1EB19EAB001C06E5"
-               BuildableName = "BookingFoodTests.xctest"
-               BlueprintName = "BookingFoodTests"
-               ReferencedContainer = "container:BookingFood.xcodeproj">
+               BlueprintIdentifier = "48B490D61EB8E7AE00C8C7DE"
+               BuildableName = "BookFoodTests.xctest"
+               BlueprintName = "BookFoodTests"
+               ReferencedContainer = "container:BookFood.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "48B54EA61EB19EAB001C06E5"
-               BuildableName = "BookingFoodUITests.xctest"
-               BlueprintName = "BookingFoodUITests"
-               ReferencedContainer = "container:BookingFood.xcodeproj">
+               BlueprintIdentifier = "48B490E11EB8E7AE00C8C7DE"
+               BuildableName = "BookFoodUITests.xctest"
+               BlueprintName = "BookFoodUITests"
+               ReferencedContainer = "container:BookFood.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "48B54E841EB19EAB001C06E5"
-            BuildableName = "BookingFood.app"
-            BlueprintName = "BookingFood"
-            ReferencedContainer = "container:BookingFood.xcodeproj">
+            BlueprintIdentifier = "48B490BF1EB8E7AE00C8C7DE"
+            BuildableName = "BookFood.app"
+            BlueprintName = "BookFood"
+            ReferencedContainer = "container:BookFood.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "48B54E841EB19EAB001C06E5"
-            BuildableName = "BookingFood.app"
-            BlueprintName = "BookingFood"
-            ReferencedContainer = "container:BookingFood.xcodeproj">
+            BlueprintIdentifier = "48B490BF1EB8E7AE00C8C7DE"
+            BuildableName = "BookFood.app"
+            BlueprintName = "BookFood"
+            ReferencedContainer = "container:BookFood.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "48B54E841EB19EAB001C06E5"
-            BuildableName = "BookingFood.app"
-            BlueprintName = "BookingFood"
-            ReferencedContainer = "container:BookingFood.xcodeproj">
+            BlueprintIdentifier = "48B490BF1EB8E7AE00C8C7DE"
+            BuildableName = "BookFood.app"
+            BlueprintName = "BookFood"
+            ReferencedContainer = "container:BookFood.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

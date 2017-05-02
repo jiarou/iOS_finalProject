@@ -1,15 +1,15 @@
 //
-//  BookingFoodTests.swift
-//  BookingFoodTests
+//  BookFoodTests.swift
+//  BookFoodTests
 //
-//  Created by jiarou on 2017/4/27.
+//  Created by jiarou on 2017/5/3.
 //  Copyright © 2017年 teamFour. All rights reserved.
 //
 
 import XCTest
-@testable import BookingFood
+@testable import BookFood
 
-class BookingFoodTests: XCTestCase {
+class BookFoodTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
