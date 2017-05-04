@@ -1,5 +1,5 @@
 //
-//  RestaurantList.swift
+//  RestaurantInformation.swift
 //  BookFood
 //
 //  Created by jiarou on 2017/5/3.
@@ -8,9 +8,8 @@
 
 import UIKit
 
-class RestaurantList: UIView {
+class RestaurantInformation: UIView {
 
-    @IBOutlet weak var Information: UIButton!
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
