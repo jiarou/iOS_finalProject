@@ -10,7 +10,10 @@ import UIKit
 
 class RestaurantList: UIView {
 
+<<<<<<< HEAD
     @IBOutlet weak var Information: UIButton!
+=======
+>>>>>>> 0519188df3c79d5c5c971e19416e20d601e92b53
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.

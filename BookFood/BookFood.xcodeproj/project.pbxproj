@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		48803DFB1EB9A8FA00EDA617 /* RestaurantInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48803DFA1EB9A8FA00EDA617 /* RestaurantInformation.swift */; };
 		48803DFD1EB9AB0C00EDA617 /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48803DFC1EB9AB0C00EDA617 /* Booking.swift */; };
 		48803DFF1EB9AB7200EDA617 /* CheckOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48803DFE1EB9AB7200EDA617 /* CheckOrder.swift */; };
 		48803E011EB9AC1400EDA617 /* SuccessOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48803E001EB9AC1400EDA617 /* SuccessOrder.swift */; };
+=======
+>>>>>>> 0519188df3c79d5c5c971e19416e20d601e92b53
 		48B490C41EB8E7AE00C8C7DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B490C31EB8E7AE00C8C7DE /* AppDelegate.swift */; };
 		48B490C61EB8E7AE00C8C7DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B490C51EB8E7AE00C8C7DE /* ViewController.swift */; };
 		48B490C91EB8E7AE00C8C7DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B490C71EB8E7AE00C8C7DE /* Main.storyboard */; };
@@ -42,10 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		48803DFA1EB9A8FA00EDA617 /* RestaurantInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantInformation.swift; sourceTree = "<group>"; };
 		48803DFC1EB9AB0C00EDA617 /* Booking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
 		48803DFE1EB9AB7200EDA617 /* CheckOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckOrder.swift; sourceTree = "<group>"; };
 		48803E001EB9AC1400EDA617 /* SuccessOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessOrder.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> 0519188df3c79d5c5c971e19416e20d601e92b53
 		48B490C01EB8E7AE00C8C7DE /* BookFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48B490C31EB8E7AE00C8C7DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48B490C51EB8E7AE00C8C7DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,10 +129,13 @@
 				48B490F41EB8E7DE00C8C7DE /* FoodMap.swift */,
 				48B490F61EB8EAAF00C8C7DE /* RestaurantList.swift */,
 				48B490F81EB8EBE700C8C7DE /* member.swift */,
+<<<<<<< HEAD
 				48803DFA1EB9A8FA00EDA617 /* RestaurantInformation.swift */,
 				48803DFC1EB9AB0C00EDA617 /* Booking.swift */,
 				48803DFE1EB9AB7200EDA617 /* CheckOrder.swift */,
 				48803E001EB9AC1400EDA617 /* SuccessOrder.swift */,
+=======
+>>>>>>> 0519188df3c79d5c5c971e19416e20d601e92b53
 			);
 			path = BookFood;
 			sourceTree = "<group>";
@@ -284,12 +293,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				48B490F71EB8EAAF00C8C7DE /* RestaurantList.swift in Sources */,
+<<<<<<< HEAD
 				48803DFF1EB9AB7200EDA617 /* CheckOrder.swift in Sources */,
 				48803DFD1EB9AB0C00EDA617 /* Booking.swift in Sources */,
 				48B490C61EB8E7AE00C8C7DE /* ViewController.swift in Sources */,
 				48803DFB1EB9A8FA00EDA617 /* RestaurantInformation.swift in Sources */,
 				48B490CC1EB8E7AE00C8C7DE /* BookFood.xcdatamodeld in Sources */,
 				48803E011EB9AC1400EDA617 /* SuccessOrder.swift in Sources */,
+=======
+				48B490C61EB8E7AE00C8C7DE /* ViewController.swift in Sources */,
+				48B490CC1EB8E7AE00C8C7DE /* BookFood.xcdatamodeld in Sources */,
+>>>>>>> 0519188df3c79d5c5c971e19416e20d601e92b53
 				48B490F51EB8E7DE00C8C7DE /* FoodMap.swift in Sources */,
 				48B490C41EB8E7AE00C8C7DE /* AppDelegate.swift in Sources */,
 				48B490F91EB8EBE700C8C7DE /* member.swift in Sources */,
@@ -441,6 +455,10 @@
 		48B490EC1EB8E7AE00C8C7DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+<<<<<<< HEAD
+=======
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+>>>>>>> 0519188df3c79d5c5c971e19416e20d601e92b53
 				INFOPLIST_FILE = BookFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NCCC.BookFood;
@@ -452,6 +470,10 @@
 		48B490ED1EB8E7AE00C8C7DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+<<<<<<< HEAD
+=======
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+>>>>>>> 0519188df3c79d5c5c971e19416e20d601e92b53
 				INFOPLIST_FILE = BookFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NCCC.BookFood;
@@ -533,7 +555,10 @@
 				48B490ED1EB8E7AE00C8C7DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
 			defaultConfigurationName = Release;
+=======
+>>>>>>> 0519188df3c79d5c5c971e19416e20d601e92b53
 		};
 		48B490EE1EB8E7AE00C8C7DE /* Build configuration list for PBXNativeTarget "BookFoodTests" */ = {
 			isa = XCConfigurationList;
@@ -542,7 +567,10 @@
 				48B490F01EB8E7AE00C8C7DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
 			defaultConfigurationName = Release;
+=======
+>>>>>>> 0519188df3c79d5c5c971e19416e20d601e92b53
 		};
 		48B490F11EB8E7AE00C8C7DE /* Build configuration list for PBXNativeTarget "BookFoodUITests" */ = {
 			isa = XCConfigurationList;
@@ -551,7 +579,10 @@
 				48B490F31EB8E7AE00C8C7DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
 			defaultConfigurationName = Release;
+=======
+>>>>>>> 0519188df3c79d5c5c971e19416e20d601e92b53
 		};
 /* End XCConfigurationList section */
 
