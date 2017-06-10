@@ -28,6 +28,7 @@
 		48F7A1101EE9808F00F65BFE /* RestaurantCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F7A10F1EE9808F00F65BFE /* RestaurantCollectionViewCell.swift */; };
 		99860708CF8D153369BE7E41 /* Pods_BookFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A44B285CC5962275BF17F9 /* Pods_BookFood.framework */; };
 		D0EE226523FBFEBAB7B7C70D /* Pods_BookFoodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0898E91C533E93E1C31C4176 /* Pods_BookFoodUITests.framework */; };
+		F7327F081EEC5CFA0027ABA7 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7327F071EEC5CFA0027ABA7 /* Register.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		75EFA9276E2AC8D3111647C4 /* Pods-BookFoodUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookFoodUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookFoodUITests/Pods-BookFoodUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B9A44B285CC5962275BF17F9 /* Pods_BookFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60FA9940EDDC41F37861BE0 /* Pods-BookFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookFood.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookFood/Pods-BookFood.release.xcconfig"; sourceTree = "<group>"; };
+		F7327F071EEC5CFA0027ABA7 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		F946FD2B940B6852F9B8F503 /* Pods-BookFoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookFoodTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookFoodTests/Pods-BookFoodTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,6 +165,7 @@
 				48803E001EB9AC1400EDA617 /* SuccessOrder.swift */,
 				48F7A10D1EE9800C00F65BFE /* RestaurantViewController.swift */,
 				48F7A10F1EE9808F00F65BFE /* RestaurantCollectionViewCell.swift */,
+				F7327F071EEC5CFA0027ABA7 /* Register.swift */,
 			);
 			path = BookFood;
 			sourceTree = "<group>";
@@ -485,6 +488,7 @@
 				48F7A10E1EE9800C00F65BFE /* RestaurantViewController.swift in Sources */,
 				48803DFF1EB9AB7200EDA617 /* CheckOrder.swift in Sources */,
 				48803DFD1EB9AB0C00EDA617 /* Booking.swift in Sources */,
+				F7327F081EEC5CFA0027ABA7 /* Register.swift in Sources */,
 				48B490C61EB8E7AE00C8C7DE /* ViewController.swift in Sources */,
 				48803DFB1EB9A8FA00EDA617 /* RestaurantInformation.swift in Sources */,
 				48B490CC1EB8E7AE00C8C7DE /* BookFood.xcdatamodeld in Sources */,
