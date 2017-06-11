@@ -14,6 +14,8 @@ class member: UIViewController {
 
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
+
+    
     @IBAction func submit(_ sender: Any) {
         if self.email.text == "" || self.password.text == "" {
             
@@ -33,7 +35,6 @@ class member: UIViewController {
                 if error == nil {
                     
                     print("You have successfully logged in")
-                    
                     //Go to the HomeViewController if the login is sucessful
                     let vc = self.storyboard?.instantiateViewController(withIdentifier: "Home")
                     self.present(vc!, animated: true, completion: nil)
@@ -51,6 +52,14 @@ class member: UIViewController {
             }
         }
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let Home = segue.destination as! ViewController
+        print(self.email.text)
+        print(Home.userName)
+        Home.userName = self.email.text!
+        print("gogo")
+    }
+    
 
 
 }
