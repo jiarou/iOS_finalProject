@@ -148,6 +148,7 @@
                         <outlet property="TapFoodMap" destination="i8w-9D-Ko7" id="Rz5-5w-t0h"/>
                         <outlet property="TapMenber" destination="BYu-Xu-8qm" id="52s-19-6r7"/>
                         <outlet property="TapReastaurant" destination="KT2-0X-mGB" id="iEz-2H-c3y"/>
+                        <outlet property="userName" destination="0f4-c2-3vz" id="GiB-0N-9Jp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -558,15 +559,15 @@
             </objects>
             <point key="canvasLocation" x="4097" y="518"/>
         </scene>
-        <!--View Controller-->
+        <!--Member-->
         <scene sceneID="iDW-VG-UVA">
             <objects>
-                <viewController id="KBX-JT-42V" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Member" id="KBX-JT-42V" customClass="member" customModule="BookFood" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JmA-gc-IIU"/>
                         <viewControllerLayoutGuide type="bottom" id="wR4-lw-9ab"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="1yj-jX-2BU" customClass="member" customModule="BookFood" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="1yj-jX-2BU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -638,17 +639,21 @@
                                 <rect key="frame" x="108" y="348" width="134" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="送出" backgroundImage="訂購框"/>
+                                <connections>
+                                    <action selector="submit:" destination="KBX-JT-42V" eventType="touchUpInside" id="KuM-25-aeg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="show" id="Z12-GA-EFq"/>
+                        <outlet property="email" destination="8lj-7i-IJ7" id="IYQ-5C-tbb"/>
+                        <outlet property="password" destination="aCf-mg-OjX" id="CUj-cX-vyy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rsT-60-SLy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-706.39999999999998" y="229.83508245877064"/>
+            <point key="canvasLocation" x="-702" y="242"/>
         </scene>
         <!--Register-->
         <scene sceneID="3OR-9H-eba">

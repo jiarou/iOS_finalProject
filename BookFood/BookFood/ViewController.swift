@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         
         
     }
+    @IBOutlet weak var userName: UILabel!
 
     @IBOutlet weak var TapReastaurant: UIButton!
     @IBOutlet weak var TapMenber: UIButton!
