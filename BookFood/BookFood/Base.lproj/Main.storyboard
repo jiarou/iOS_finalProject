@@ -244,10 +244,17 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="U3t-vf-L2q" id="8gk-bW-hSC"/>
+                                    <outlet property="delegate" destination="U3t-vf-L2q" id="K1e-M3-uk5"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="mycollection" destination="evw-k4-f7V" id="Vdi-HY-A5b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5a1-t6-jxF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

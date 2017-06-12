@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>GoogleToolboxForMac.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Moltin.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,6 +42,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>06A0A716C1724D9CF1C3CD464D8BA557</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5DCF1122A97277456065F5BCA4E604E6</key>
 		<dict>
 			<key>primary</key>
@@ -42,7 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FEA6F2219847A7C212BD933472F1FAB6</key>
+		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9A6FC8238C6B8A68667F9B704826CFC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
