@@ -15,7 +15,11 @@ class Register: UIViewController {
     
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
-
+    var ref: DatabaseReference!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
     @IBAction func submit(_ sender: Any) {
         if email.text == "" {
             let alertController = UIAlertController(title: "Error", message: "Please enter your email and password", preferredStyle: .alert)
@@ -31,7 +35,8 @@ class Register: UIViewController {
                 if error == nil {
                     print("You have successfully signed up")
                     //Goes to the Setup page which lets the user take a photo for their profile picture and also chose a username
-                    
+                    self.ref = Database.database().reference()
+                    self.ref.child("users").child((self.email.text?.replacingOccurrences(of: ".", with: ","))!).setValue(["password": self.password.text])
                     let vc = self.storyboard?.instantiateViewController(withIdentifier: "Member")
                     self.present(vc!, animated: true, completion: nil)
                     

@@ -53,13 +53,21 @@ class member: UIViewController {
         }
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "Home"{
         let Home = segue.destination as! ViewController
-        print(self.email.text)
-        print(Home.userName)
-        Home.userName = self.email.text!
-        print("gogo")
+        Home.userEmail = self.email.text!
+        let charIndex = self.email.text!.indexDistance(of: "@")
+        let index = self.email.text!.index(Home.userName.startIndex, offsetBy: charIndex!)
+        Home.userName = self.email.text!.substring(to: index)
+        }
+        
     }
-    
 
 
+}
+extension String {
+    func indexDistance(of character: Character) -> Int? {
+        guard let index = characters.index(of: character) else { return nil }
+        return distance(from: startIndex, to: index)
+    }
 }
