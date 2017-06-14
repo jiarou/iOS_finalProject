@@ -56,8 +56,8 @@ class member: UIViewController {
         if segue.identifier == "Home"{
         let Home = segue.destination as! ViewController
         Home.userEmail = self.email.text!
-        let charIndex = self.email.text!.indexDistance(of: "@")
-        let index = self.email.text!.index(Home.userName.startIndex, offsetBy: charIndex!)
+        let charIndex = self.email.text!.indexDistance(of: "@")!+1
+        let index = self.email.text!.index(Home.userName.startIndex, offsetBy: charIndex)
         Home.userName = self.email.text!.substring(to: index)
         }
         

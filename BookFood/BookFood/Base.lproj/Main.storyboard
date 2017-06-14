@@ -197,13 +197,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="igu-nU-o8h">
-                                <rect key="frame" x="117" y="103" width="196" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
-                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bRN-yn-wsH">
                                 <rect key="frame" x="117" y="151" width="196" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -213,13 +206,6 @@
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="帳號" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pa8-r6-bgm">
                                 <rect key="frame" x="39" y="57" width="51" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="密碼" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMO-qJ-DlU">
-                                <rect key="frame" x="39" y="103" width="51" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -246,6 +232,7 @@
                                 <state key="normal" title="送出"/>
                                 <connections>
                                     <action selector="submit:" destination="ebu-0U-rnJ" eventType="touchUpInside" id="QrA-jF-KYd"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="Home" id="3zA-uf-sEI"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFF-ac-kji">
@@ -268,13 +255,12 @@
                     <connections>
                         <outlet property="address" destination="ZMe-d1-zOn" id="7w9-pM-EKL"/>
                         <outlet property="email" destination="RFF-ac-kji" id="nOa-Zz-d3S"/>
-                        <outlet property="password" destination="igu-nU-o8h" id="Nbl-iZ-ZlL"/>
                         <outlet property="phone" destination="bRN-yn-wsH" id="hbd-ET-zTb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A9A-W9-cgL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-770.39999999999998" y="-465.51724137931041"/>
+            <point key="canvasLocation" x="-865" y="-627"/>
         </scene>
         <!--Restaurant View Controller-->
         <scene sceneID="1q2-6S-YfE">
@@ -824,4 +810,7 @@
         <image name="蕃茄蛋炒飯" width="800" height="600"/>
         <image name="訂購框" width="85" height="20"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="3zA-uf-sEI"/>
+    </inferredMetricsTieBreakers>
 </document>
